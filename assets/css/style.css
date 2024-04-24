@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.abuelo {
+  display: flex;
+}
+.contenedor-padre {
+  display: flex;
+  border: 2px solid grey;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+}
+.contenedor-madre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  border: 0.5px solid grey;
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+.primer-hijo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.primer-hijo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.segundo-hijo {
+  display: flex;
+  gap: 20px;
+  color: grey;
+}
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid grey;
+  width: 100%;
+  padding: 32px;
+}
+
+button {
+  background-color: #ad88c6;
+  color: white;
+  border: none;
+  font-size: 1em;
+  width: 12vw;
+  height: 6vh;
+}
+
+.usuarios {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border: 0.5px solid grey;
+  width: 100%;
+  gap: 15px;
+  padding: 10px 0 10px 0;
+}
+.usuario_img {
+  margin-left: 32px;
+}
+.centro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 100vw;
+  gap: 16px;
+}
+.parrafo {
+  text-align: center;
+}
+h1 {
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
